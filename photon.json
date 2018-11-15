@@ -1,0 +1,32 @@
+{
+  "name": "drift-api",
+  "title": "drift api",
+  "description": "drift api",
+  "author": "duke",
+  "license": "MIT",
+  "version": "0.0.1",
+  "adminToken": "3c0f44197e10e2cb4a2e0fe749b88d03",
+  "signUpToken": "86105f9a0da8e6c07cf5bf7f917f42c8",
+  "ux": "Default",
+  "data": "../drift-data/data",
+  "assets": "../drift-data/assets",
+  "port": "4000",
+  "framework": {
+    "name": "neuron",
+    "type": "api"
+  },
+  "extensions": [
+  ],
+  "containers": {
+    "db": {
+      "name": "drift",
+      "url": "mongodb://10.65.147.67/drift"
+    },
+    "agent": {
+      "url": ""
+    },
+    "mqtt": {
+      "url": ""
+    }
+  }
+}
